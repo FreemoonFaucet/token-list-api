@@ -1,4 +1,5 @@
 
+const fs = require("fs")
 const express = require("express")
 const helmet = require("helmet")
 
@@ -13,4 +14,3 @@ app.use("/logos", express.static("logos"))
 app.listen(port, () => {
     console.log(`Example app listening on port ${ port }`)
 })
-
