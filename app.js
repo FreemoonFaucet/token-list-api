@@ -12,5 +12,5 @@ app.use("/tokens", express.static("tokens.json"))
 app.use("/logos", express.static("logos"))
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${ port }`)
+    console.log(`Token list API listening on port ${ port }`)
 })
