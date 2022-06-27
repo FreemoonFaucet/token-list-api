@@ -7,7 +7,7 @@ const cors = require("cors")
 const app = express()
 const port = 3000
 
-app.use(helmet())
+app.use(helmet({ crossOriginResourcePolicy: false }))
 app.use(cors())
 
 app.use("/tokens", express.static("tokens.json"))
