@@ -1,0 +1,59 @@
+
+{
+    "tokens": [
+        {
+            "name": "Fusion",
+            "symbol": "FSN",
+            "address": "0x0000000000000000000000000000000000000000",
+	    "futures": [ "", "", "" ],
+	    "options": [ "0xba20fd6c907ab0a70ed581c7639210c3f55aaf93", "" ],
+            "decimals": 3,
+            "logo": "FSN.png"
+        },
+        {
+            "name": "Wrapped Fusion",
+            "symbol": "WFSN",
+            "address": "0xbb375120dad0c7ce8b0a2a26ecf7cc5c919c0779",
+	    "futures": [ "", "", "" ],
+	    "options": [ "", "" ],
+            "decimals": 3,
+            "logo": "FSN.png"
+        },
+        {
+            "name": "The FREEMOON Token",
+            "symbol": "FMN",
+            "address": "0x418de81c54fe887d786868de5361513f90bea140",
+	    "futures": [ "", "0xc2f165a09ff62b982d57eed7fa1e95004fe27253", "0xaabf290d8eb551601bcb3a0682510e842d13543d" ],
+	    "options": [ "", "" ],
+            "decimals": 5,
+            "logo": "FMN.png"
+        },
+        {
+            "name": "The FREE Token",
+            "symbol": "FREE",
+            "address": "0x594daf3f8d5c2eebecd0e0ffcddc796f594f7c81",
+	    "futures": [ "0x3ab66689da9e009a992d15c559c0fad8d70a58b9", "", "" ],
+	    "options": [ "", "0xc436d876fd84465a998f2a8cafe6577bcb906c31" ],
+            "decimals": 0,
+            "logo": "FREE.png"
+        },
+        {
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "address": "0xc0dc175ad74dfe5256871221c334418ec69f20ce",
+	    "futures": [ "", "", "" ],
+	    "options": [ "", "" ],
+            "decimals": 2,
+            "logo": "USDC.png"
+        },
+        {
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "address": "0xc9bc04fd2aeb71ba3ceec57c28e5b78eb02d3260",
+	    "futures": [ "", "0x80a287f90e62e235b87073569a7ecb21c48176d5", "0x75a18d73579899de04bb94eec5ea6dbdcf280dbc" ],
+	    "options": [ "", "" ],
+            "decimals": 5,
+            "logo": "BTC.png"
+        }
+    ]
+}
